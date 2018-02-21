@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+*{
+  /*width:auto;
+  height:auto;*/
+  margin: 0;
+  padding: 0;
+} 
+
+ html {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+        background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/27459244_1666235630104672_4453876628877325814_n.jpg?oh=82a443b7811e45b275782a803e2701c1&oe=5B145544");
+}
+/*#background {
+
+}
+*/
+#header {
+  height: auto;
+  width: 100%;
+border: 10px solid black;
+position: relative;
+box-sizing: border-box;
+background-origin: box;
+padding-top: 0px;
+border-radius: 15px;
+}
+
+/*.logo{
+ 
+}*/
+/*.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    font-size: 78px;
+}
+*/
+/*
+#nav {
+    color: white;
+display: table-cell;
+margin-top: 10px;
+margin-right: 20px;
+background-image: url("hatter/2.jpg");
+padding: 10px 10px;
+font-size: 31px;
+box-sizing: content-box;
+font-family: 'Cormorant Garamond', serif;
+border: 4px solid black;
+border-radius: 15px;
+text-align: left;
+float:left;
+overflow: auto;
+}
+*/
+
+.description {
+width: 1fr;
+height: 1fr;
+text-align: center;
+font-family: Merienda;
+font-size: 1em;
+color: black;
+margin-top: 15px;
+margin-bottom: 10px;
+border-radius: 15px;
+
+}
+
+#main {
+  position: relative;
+    overflow: initial;
+float: center;
+/*margin: 10px;*/
+ display: grid;
+/*justify-items: box;*/
+/*align-items: : box;*/
+font-family: Droid serif;
+font-size: 1.5em;
+width: 100%;
+}
+
+.grid{
+
+  display: grid;
+   
+/*justify-items: box;*/
+/*align-items: : box;*/
+font-family: Droid serif;
+font-size: 1.5em;
+width: 0.1fr;
+
+}
+.box {
+    
+    float: center;
+    max-width: 1fr;
+    max-height: 1fr;
+    min-height: 0.1fr;
+    min-width: 0.5fr;
+  background-color: grey;
+  color: black;
+  border: 5px black solid;
+  /*grid-template-columns: repeat(, 1fr);*/
+  /*grid-auto-flow: column;*/
+  border-radius: 15px;
+  justify-items: center;
+  align-items: center;
+  text-align:center;
+  background-color: purple;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*margin-left: 5px;
+  margin-right: 5px;*/
+
+
+  
+
+  }
+/* navigációs menü*/
+
+  .header {
+    height: 1fr;
+     width: 1fr;
+  
+grid-column: 1 / 6;
+color: black;
+background-color: purple;
+margin-top: 10px;
+margin-bottom: 20px;
+border-color: purple;
+font-family: Merienda;
+  }
+
+
+ .box img {
+    width: 168px;
+    height: 154px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+#footer {
+}
+a {
+    text-decoration: none;
+    color: white;
+}
