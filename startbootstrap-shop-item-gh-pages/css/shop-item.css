@@ -1,17 +1,42 @@
+
 @import url('https://fonts.googleapis.com/css?family=Merienda');
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+
+body {
+  font-family: Merienda Droid serif;
+  background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/27459244_1666235630104672_4453876628877325814_n.jpg?oh=82a443b7811e45b275782a803e2701c1&oe=5B145544", transparent);
+  background-image:radial-gradient(circle, #a340d0, white, purple);
+
+
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-family: Merienda Droid serif;
+    background-image:linear-gradient(purple, #a340d0);
+    padding-top: 56px;
+  }
+}
+
 
 *{
   /*width:auto;
   height:auto;*/
   margin: 0;
   padding: 0;
-} 
+  font-family: Merienda Droid serif;
+}
 
  html {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-        background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/27459244_1666235630104672_4453876628877325814_n.jpg?oh=82a443b7811e45b275782a803e2701c1&oe=5B145544");
+    background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/27459244_1666235630104672_4453876628877325814_n.jpg?oh=82a443b7811e45b275782a803e2701c1&oe=5B145544");
 }
 /*#background {
 
@@ -20,7 +45,7 @@
 #header {
   height: auto;
   width: 100%;
-border: 10px solid black;
+border: 10px solid #a340d0;
 position: relative;
 box-sizing: border-box;
 background-origin: box;
@@ -29,7 +54,7 @@ border-radius: 15px;
 }
 
 /*.logo{
- 
+
 }*/
 /*.center {
     position: absolute;
@@ -79,7 +104,7 @@ float: center;
  display: grid;
 /*justify-items: box;*/
 /*align-items: : box;*/
-font-family: Droid serif;
+font-family: Merienda Droid serif;
 font-size: 1.5em;
 width: 100%;
 }
@@ -87,30 +112,30 @@ width: 100%;
 .grid{
 
   display: grid;
-   
+
 /*justify-items: box;*/
 /*align-items: : box;*/
-font-family: Droid serif;
+font-family:Merienda Droid serif;
 font-size: 1.5em;
 width: 0.1fr;
 
 }
 .box {
-    
+
     float: center;
     max-width: 1fr;
     max-height: 1fr;
     min-height: 0.1fr;
     min-width: 0.5fr;
   background-color: grey;
-  color: black;
+  color: green;
   border: 5px black solid;
   /*grid-template-columns: repeat(, 1fr);*/
   /*grid-auto-flow: column;*/
-  border-radius: 15px;
+  border-radius: 25px;
   justify-items: center;
   align-items: center;
-  text-align:center;
+  text-align: center;
   background-color: purple;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -118,17 +143,17 @@ width: 0.1fr;
   margin-right: 5px;*/
 
 
-  
+
 
   }
-/* navigációs menü*/
+/* navigĂˇciĂłs menĂĽ*/
 
   .header {
     height: 1fr;
      width: 1fr;
-  
-grid-column: 1 / 6;
-color: black;
+
+grid-column: 1 / 5;
+color: white;
 background-color: purple;
 margin-top: 10px;
 margin-bottom: 20px;
@@ -147,5 +172,10 @@ font-family: Merienda;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.shadow {
+  text-shadow: 10px, 10px, 20px, rgb(0,0,0,1);
+  box-shadow: 10px, 10px, 20px, rgb(0,0,0,1);
 }
